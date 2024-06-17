@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LeyDHondt.Utils;
+using System;
 using System.Windows.Forms;
 
 namespace LeyDHondt.Forms
@@ -46,10 +40,19 @@ namespace LeyDHondt.Forms
         /// </summary>
         private void initialize()
         {
-            this.lblTitle.Text = Settings.Default.Title;
+            /// Textos
+            this.lblTitle.Text = Properties.Settings.Default.Title;
+            this.lblFooter.Text = Properties.Settings.Default.Footer;
+
+            // Se aplica la identidad corporativa al control
+            CorporativeUtility.CorporatizeControl(lblTitle);
+            CorporativeUtility.CorporatizeControl(lblFooter);
+
+            // HACK Quinteiro: permitir ocultar el Footer si no hay mensaje en los settings
         }
 
         #endregion Private Methdos
+
 
     }
 }

@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Settings.settings">
+    <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
@@ -43,7 +43,7 @@
     <Folder Include="Source\UserControls\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Settings.Designer.cs">
+    <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -55,8 +55,12 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Source\Program.cs" />
+    <Compile Include="Source\Utils\CorporativeUtility.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="K5Logger">
+      <HintPath>..\ExternalLibraries\K5Logger.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LeyDHondt {
+namespace LeyDHondt.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,18 +26,18 @@ namespace LeyDHondt {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("23, 88, 157")]
-        public global::System.Drawing.Color Color_DarkBlue {
+        public global::System.Drawing.Color BackColor_First {
             get {
-                return ((global::System.Drawing.Color)(this["Color_DarkBlue"]));
+                return ((global::System.Drawing.Color)(this["BackColor_First"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0, 154, 222")]
-        public global::System.Drawing.Color Color_LightBlue {
+        [global::System.Configuration.DefaultSettingValueAttribute("White")]
+        public global::System.Drawing.Color ForeColor_First {
             get {
-                return ((global::System.Drawing.Color)(this["Color_LightBlue"]));
+                return ((global::System.Drawing.Color)(this["ForeColor_First"]));
             }
         }
         
@@ -47,6 +47,15 @@ namespace LeyDHondt {
         public string Title {
             get {
                 return ((string)(this["Title"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Uso exclusivo no profesional. Ninguna licencia acreditada por el desarrollador.")]
+        public string Footer {
+            get {
+                return ((string)(this["Footer"]));
             }
         }
     }
