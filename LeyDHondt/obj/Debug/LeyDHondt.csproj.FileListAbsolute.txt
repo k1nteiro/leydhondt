@@ -1,0 +1,9 @@
+D:\WORKSPACES\VisualStudio\Ley DHondt\LeyDHondt\obj\Debug\LeyDHondt.csproj.AssemblyReference.cache
+D:\WORKSPACES\VisualStudio\Ley DHondt\LeyDHondt\obj\Debug\LeyDHondt.csproj.GenerateResource.cache
+D:\WORKSPACES\VisualStudio\Ley DHondt\LeyDHondt\obj\Debug\LeyDHondt.csproj.CoreCompileInputs.cache
+D:\WORKSPACES\VisualStudio\Ley DHondt\LeyDHondt\bin\Debug\LeyDHondt.exe.config
+D:\WORKSPACES\VisualStudio\Ley DHondt\LeyDHondt\bin\Debug\LeyDHondt.exe
+D:\WORKSPACES\VisualStudio\Ley DHondt\LeyDHondt\bin\Debug\LeyDHondt.pdb
+D:\WORKSPACES\VisualStudio\Ley DHondt\LeyDHondt\obj\Debug\LeyDHondt.Forms.MainForm.resources
+D:\WORKSPACES\VisualStudio\Ley DHondt\LeyDHondt\obj\Debug\LeyDHondt.exe
+D:\WORKSPACES\VisualStudio\Ley DHondt\LeyDHondt\obj\Debug\LeyDHondt.pdb
