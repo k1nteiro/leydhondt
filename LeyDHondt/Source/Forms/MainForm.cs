@@ -47,12 +47,9 @@ namespace LeyDHondt.Forms
             // Se aplica la identidad corporativa al control
             CorporativeUtility.CorporatizeControl(lblTitle);
             CorporativeUtility.CorporatizeControl(lblFooter);
-
-            // HACK Quinteiro: permitir ocultar el Footer si no hay mensaje en los settings
         }
 
         #endregion Private Methdos
-
 
     }
 }
