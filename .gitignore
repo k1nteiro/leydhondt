@@ -5,4 +5,4 @@ LeyDHondt/obj/
 # Otros patrones que quieras ignorar
 # Por ejemplo, ignorar todos los archivos .log
 *.log
-*/.vs/
+*.vs/

@@ -1,4 +1,5 @@
-﻿using LeyDHondt.Utils;
+﻿using K5Logger;
+using LeyDHondt.Utils;
 using System;
 using System.Windows.Forms;
 
