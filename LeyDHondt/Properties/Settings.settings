@@ -12,7 +12,7 @@
       <Value Profile="(Default)">K5 D'Hondt</Value>
     </Setting>
     <Setting Name="Footer" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Uso exclusivo no profesional. Ninguna licencia acreditada por el desarrollador.</Value>
+      <Value Profile="(Default)">Uso exclusivo no comercial. Ninguna licencia acreditada por el desarrollador.</Value>
     </Setting>
   </Settings>
 </SettingsFile>

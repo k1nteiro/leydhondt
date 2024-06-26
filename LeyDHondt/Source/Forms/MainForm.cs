@@ -1,10 +1,12 @@
-﻿using K5Logger;
-using LeyDHondt.Utils;
+﻿using LeyDHondt.Utils;
 using System;
 using System.Windows.Forms;
 
 namespace LeyDHondt.Forms
 {
+    /// <summary>
+    /// Formulario principal del aplicativo
+    /// </summary>
     public partial class MainForm : Form
     {
 
@@ -42,6 +44,7 @@ namespace LeyDHondt.Forms
         private void initialize()
         {
             /// Textos
+            this.Text = Properties.Settings.Default.Title;
             this.lblTitle.Text = Properties.Settings.Default.Title;
             this.lblFooter.Text = Properties.Settings.Default.Footer;
 

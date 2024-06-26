@@ -52,7 +52,7 @@ namespace LeyDHondt.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Uso exclusivo no profesional. Ninguna licencia acreditada por el desarrollador.")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Uso exclusivo no comercial. Ninguna licencia acreditada por el desarrollador.")]
         public string Footer {
             get {
                 return ((string)(this["Footer"]));
