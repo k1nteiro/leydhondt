@@ -1,4 +1,4 @@
-﻿namespace LeyDHondt.Forms
+﻿namespace K5DHondt.LeyDHondtApp.Forms
 {
     partial class MainForm
     {
@@ -31,7 +31,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.lblFooter = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
-            this.ucTabControl1 = new LeyDHondt.Source.UserControls.ucTabControl();
+            this.ucTabControl1 = new K5DHondt.LeyDHondtApp.UserControls.ucTabControl();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,6 +109,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label lblFooter;
         private System.Windows.Forms.Label lblTitle;
-        private Source.UserControls.ucTabControl ucTabControl1;
+        private UserControls.ucTabControl ucTabControl1;
     }
 }

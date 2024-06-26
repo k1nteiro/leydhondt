@@ -1,8 +1,6 @@
 ﻿using K5Logger;
-using System;
-using System.Windows.Forms;
 
-namespace LeyDHondt.Utils
+namespace K5DHondt.LeyDHondtApp.Utils
 {
     /// <summary>
     /// Clase de utilidades de identidad corporativa

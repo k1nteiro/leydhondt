@@ -1,4 +1,4 @@
-﻿namespace DataAccessBridge.Utils
+﻿namespace K5DHondt.Common.Utils
 {
     /// <summary>
     /// Acceso a constantes

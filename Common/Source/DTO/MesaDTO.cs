@@ -1,6 +1,6 @@
-﻿using DataAccessBridge.Utils;
+﻿using K5DHondt.Common.Utils;
 
-namespace DataAccessBridge.DTO
+namespace K5DHondt.Common.DTO
 {
     /// <summary>
     /// Objeto que representa una mesa electoral

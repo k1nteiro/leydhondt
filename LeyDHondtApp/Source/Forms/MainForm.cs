@@ -1,8 +1,6 @@
-﻿using LeyDHondt.Utils;
-using System;
-using System.Windows.Forms;
+﻿using K5DHondt.LeyDHondtApp.Utils;
 
-namespace LeyDHondt.Forms
+namespace K5DHondt.LeyDHondtApp.Forms
 {
     /// <summary>
     /// Formulario principal del aplicativo

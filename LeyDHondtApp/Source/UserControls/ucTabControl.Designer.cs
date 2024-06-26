@@ -1,4 +1,4 @@
-﻿namespace LeyDHondt.Source.UserControls
+﻿namespace K5DHondt.LeyDHondtApp.UserControls
 {
     partial class ucTabControl
     {

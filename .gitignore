@@ -1,6 +1,6 @@
 # Ignorar las carpetas bin y obj en LeyDHondt
-LeyDHondt/bin/
-LeyDHondt/obj/
+*/bin/
+*/obj/
 
 # Otros patrones que quieras ignorar
 # Por ejemplo, ignorar todos los archivos .log
